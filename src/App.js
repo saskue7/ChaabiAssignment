@@ -16,7 +16,7 @@ const words = () => totalwords.split('').sort(() => Math.random() > 0.5 ? 1 : -1
 
 
 // Colour function returns the right and wrong value of users keys 
-function Text(props) {
+let Text = (props) => {
  const { text, correct, active } = props
 
 
